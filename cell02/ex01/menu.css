@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu>li {
+    background: #003a8f;
+    color: white;
+    padding: 10px;
+    width: 180px;
+}
+
+.dropdown {
+    display: none;
+    background: #174a96;
+    color: white;
+}
+
+.menu li:hover .dropdown {
+    display: block;
+}
